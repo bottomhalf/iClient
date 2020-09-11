@@ -113,6 +113,12 @@ button {
   line-height: 1 !important;
 }
 
+.btn,
+input[type="text"] {
+  height: 34px !important;
+  line-height: 1 !important;
+}
+
 .input-sm {
   height: calc(1.2em + 0.75rem + 2px) !important;
 }
