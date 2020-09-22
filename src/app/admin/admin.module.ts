@@ -1,4 +1,5 @@
 import { NgModule } from "@angular/core";
+import { GoogleMapsModule } from "@angular/google-maps";
 import { CommonModule } from "@angular/common";
 import { AdminRoutingModule } from "./admin.routing.module";
 import { DashboardComponent } from "./dashboard/dashboard.component";
@@ -88,6 +89,7 @@ import { adapterFactory } from "angular-calendar/date-adapters/date-fns";
       provide: DateAdapter,
       useFactory: adapterFactory,
     }),
+    GoogleMapsModule,
   ],
 })
 export class AdminModule {}

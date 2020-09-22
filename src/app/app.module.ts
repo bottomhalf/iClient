@@ -46,7 +46,6 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
     ReactiveFormsModule,
     HttpClientModule,
     SharedModule,
-    // AdminModule,
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   providers: [
